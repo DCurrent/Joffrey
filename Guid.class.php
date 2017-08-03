@@ -20,7 +20,7 @@
 	{
 		private $guid_string;
 		
-		public function __construct(GuidConfig $config)
+		public function __construct(GuidConfig $config = NULL)
 		{
 			
 		}
