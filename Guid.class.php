@@ -7,10 +7,10 @@
 	interface iGuid
 	{
 		// Accessors.
-		function get_guid_string($value);
+		function get_guid_string();
 		
 		// Mutators.
-		function set_guid_string();
+		function set_guid_string($value);
 		
 		// Core.
 		function generate_guid();
